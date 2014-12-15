@@ -1,0 +1,62 @@
+/*
+ Theme Name:   fiftyforfifteen
+ Description:  fiftyforfifteen theme
+ Author:       Alexander Woolley
+ Author URI:   http://twitter.com/alexwoolley4
+ Template:     sight
+*/
+
+/*Render background image as mosaic*/
+body {
+	background: url(/wp-content/uploads/2014/07/owab-board1.jpg); background-repeat: repeat;
+}
+
+/*Get rid of copyright and credits info*/
+.copyright {
+	display: none;
+}
+
+.credits {
+	display: none;
+}
+
+/*Make text Times New Roman by default*/
+.post-content {
+	font-family: "Times New Roman", serif;
+	font-size: 17px;
+}
+#content post-content {
+	font-family: Helvetica, sans-serif;
+}
+
+/*Make MailChimp form less hideous*/
+.mc4wp-form {
+	text-align: center;
+}
+
+.mc4wp-form label {
+	font-family: "Times New Roman", serif;
+	font-size: 17px;
+}
+
+.mc4wp-form input {
+	text-align: center;
+	font-family: "Times New Roman", serif;
+}
+
+/*For a good-looking masthead*/
+#masthead {
+	text-align: left;
+	font-style: italic;
+	font-family: Sans-Serif;
+	font-size: 4em;
+	margin-top: 3%;
+}
+
+.logo {
+	width: 150px;
+}
+
+.search_form {
+	margin-top: 0;
+}
