@@ -7,17 +7,21 @@
 	$constituency_id = get_cat_ID( $constituency );	
 ?>
 
-<div id ="content">
+<div id="container" class="clear">
+<div id="content">
+
 <div class="content-title">
 <?php printf('%s', $constituency); ?>
 </div>
+
+<div id="loop" class="list clear">
 
 <?php	
 	//Get constituency profile
 	$query = new WP_Query(array( 'category__and' => array( $constituency_id, 200 ) ));
 	if ($query->have_posts()) :
 		while ( $query->have_posts() ) : $query->the_post(); ?>
-			<div class="post-content">
+			<div class="post-content post">
 			<?php the_content(); ?>
 			</div>
 		<?php endwhile;
@@ -31,29 +35,38 @@
 
 <?php if ( $query->have_posts() ) : ?>
 
+
+
 <div class="content-title">Our articles</div>
 
 <?php
 
 		// Start the Loop.
 		while ( $query->have_posts() ) : $query->the_post(); ?>
-
-		<!-- TODO: sort out display. -->
+		<div class="post">
+		<div class="thumb">
 		<?php
-		//Need to get image somehow, but following doesn't work.
-		echo get_the_post_thumbnail(156);
+		the_post_thumbnail();
 		?>
+		</div>
 		<div class="content-title"><?php the_title();?></div>
+		<div class="post-content">
 		<?php
-		the_content();
+		the_excerpt();
+		?>
+		</div>
 
+		</div><!--.post-->
+		<?php
 		endwhile;
 
 		wp_reset_query();
 
 	endif;
 ?>
+</div>
 </div><!-- #content -->
+</div><!-- #container -->
 
 
 <?php
