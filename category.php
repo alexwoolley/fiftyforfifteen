@@ -18,7 +18,7 @@
 
 	<?php	
 		//Get constituency profile
-		$query = new WP_Query(array( 'category__and' => array( $constituency_id, 200 ) ));
+		$query = new WP_Query(array( 'category__and' => array( $constituency_id, 451 ) ));
 		if ($query->have_posts()) :
 			while ( $query->have_posts() ) : $query->the_post(); ?>
 				<div class="post-content post">
@@ -33,7 +33,7 @@
 	?>
 
 	<?php
-		$query = new WP_Query("cat=$constituency_id,-200");
+		$query = new WP_Query("cat=$constituency_id,-451");
 
 	if ( $query->have_posts() ) : ?>
 
@@ -58,7 +58,7 @@
 					<?php edit_post_link(__('Edit entry', 'sight'), '<em>&bull; </em>'); ?>
 				</div>
 				<div class="post-content">
-					<?php the_excerpt(); ?>
+					<?php if (function_exists('smart_excerpt')) smart_excerpt(get_the_excerpt(), 55); ?>
 				</div><!-- .post-content-->
 			</div><!--.post-->
 			<?php

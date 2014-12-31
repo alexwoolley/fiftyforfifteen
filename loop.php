@@ -1,4 +1,4 @@
-<?php $query = new WP_Query( 'cat=-200' ); ?>
+<?php $query = new WP_Query( 'cat=-451' ); ?>
 <?php if ($query->have_posts()): ?>
 
 	<div id="loop" class="<?php echo isset($_COOKIE['mode']) && $_COOKIE['mode'] == 'grid' ? 'grid' : 'list'; ?> clear">
