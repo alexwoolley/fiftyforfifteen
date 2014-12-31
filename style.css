@@ -60,3 +60,21 @@ body {
 .search_form {
 	margin-top: 0;
 }
+
+/*Hide title of categories widget on constituency pages*/
+.widget_categories h2 {
+	display: none;
+}
+
+#sidebar-cat-top {
+	padding-bottom: 2em;
+}
+
+#sidebar-cat-top button{
+	width: 25em; height: 3em; 
+	border: none;
+	color: white;
+	background-color: #dadada;
+	font: 11px Georgia, Geneva, "Times New Roman", times;
+	text-transform: uppercase;
+}

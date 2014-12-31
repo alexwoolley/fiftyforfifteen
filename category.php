@@ -25,8 +25,11 @@
 					<?php the_content(); ?>
 				</div>
 			<?php endwhile;
-			wp_reset_query();
-		endif;
+			wp_reset_query(); ?>
+			<div class="content-title">
+				Our articles
+			</div>
+		<?php endif;
 	?>
 
 	<?php
@@ -34,9 +37,6 @@
 
 	if ( $query->have_posts() ) : ?>
 
-	<div class="content-title">
-		Our articles
-	</div>
 
 	<?php
 			// Start the Loop.
