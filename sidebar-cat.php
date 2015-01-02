@@ -45,6 +45,9 @@
 				</script>
 				<?php break;
 		} ?>
+		<script type="text/javascript">
+			jQuery("iframe").contents().find(".timeline").css("background",'rgba(5,5,5,5)');
+		</script>
 
 
 		<!-- Look at this in more detail for YouTube channel embedding http://www.joaopimentel.pt/Home/works/embed-your-youtube-channel-on-your-google-site -->
