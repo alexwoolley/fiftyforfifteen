@@ -42,11 +42,14 @@
 			// Start the Loop.
 			while ( $query->have_posts() ) : $query->the_post(); ?>
 			<div class="post">
-				<div class="thumb">
-					<?php the_post_thumbnail(); ?>
-				</div>
+				<?php if (has_post_thumbnail()): ?>
+				<a href="<?php the_permalink() ?>" class="thumb"><?php the_post_thumbnail('thumbnail', array(
+						'alt' => trim(strip_tags($post->post_title)),
+						'title' => trim(strip_tags($post->post_title)),
+					)); ?></a>
+				<?php endif; ?>
 				<h2>
-					<?php the_title();?>
+					<a href="<?php the_permalink() ?>"><?php the_title(); ?></a>
 				</h2>
 				<div class="post-meta"><?php
 					printf(__('by <span class="post-author"><a href="%s" title="Posts by %s">%s</a></span> on <span class="post-date">%s</span>', 'sight'),
