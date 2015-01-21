@@ -86,7 +86,17 @@
 					</a>
 					<?= $Twitter_JavaScript_function ?>
 					<?php break;
-			case "Brent Central":
+			case "Brent Central": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/brent-central" 
+					data-widget-id="557946912092200962"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/brent-central
+				</a>
+					<?= $Twitter_JavaScript_function ?>
+					<?php break;
 			case "Brentford and Isleworth": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/brentford-and-isleworth" data-widget-id="544516818560618496"
@@ -97,8 +107,28 @@
 				</a>
 				<?= $Twitter_JavaScript_function ?>
 				<?php break;
-			case "Brighton Pavilion":
-			case "Bristol West":
+			case "Brighton Pavilion": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/brighton-pavilion" 
+					data-widget-id="557946466577436672"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/brighton-pavilion
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
+			case "Bristol West": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/bristol-west" 
+					data-widget-id="557948504765911040"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/bristol-west
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
 			case "Broxtowe": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/broxtowe" 
@@ -131,9 +161,39 @@
 				</a>
 				<?= $Twitter_JavaScript_function ?>
 				<?php break;
-			case "Carlisle":
-			case "Cleethorpes":
-			case "Derby North":
+			case "Carlisle": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/carlisle-2" 
+					data-widget-id="557949334286004225"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/carlisle-2
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
+			case "Cleethorpes": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/cleethorpes" 
+					data-widget-id="557946219662934016"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/cleethorpes
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
+			case "Derby North": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/derby-north" 
+					data-widget-id="557949118073798657"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/derby-north
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
 			case "Dover and Deal": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/dover-and-deal" 
@@ -167,11 +227,61 @@
 				</a>
 				<?= $Twitter_JavaScript_function ?>
 				<?php break;
-			case "Gedling":
-			case "Great Grimsby":
-			case "Great Yarmouth":
-			case "Hampstead and Kilburn":
-			case "Hendon":
+			case "Gedling": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/gedling" 
+					data-widget-id="557944603379511296"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/gedling
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
+			case "Great Grimsby": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/great-grimsby" 
+					data-widget-id="557945987059429376"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/great-grimsby
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
+			case "Great Yarmouth": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/great-yarmouth" 
+					data-widget-id="557944174457401344"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/great-yarmouth
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
+			case "Hampstead and Kilburn": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/hampstead-and-kilburn" 
+					data-widget-id="557943735338954755"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/hampstead-and-kilburn
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
+			case "Hendon": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/hendon" 
+					data-widget-id="557947555561340929"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/hendon
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
 			case "Hull North": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/hull-north" 
@@ -183,7 +293,17 @@
 				</a>
 				<?= $Twitter_JavaScript_function ?>
 				<?php break;
-			case "Lancaster and Fleetwood":
+			case "Lancaster and Fleetwood": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/lancaster-and-fleetwood" 
+					data-widget-id="557942898843717632"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/lancaster-and-fleetwood
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
 			case "Lincoln": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/lincoln" 
@@ -195,8 +315,17 @@
 				</a>
 				<?= $Twitter_JavaScript_function ?>
 				<?php break;
-			case "Mid Dorset and North Poole":
-			case "Middlesbrough South and East Cleveland":
+			case "Mid Dorset and North Poole": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/mid-dorset-north-poole" 
+					data-widget-id="557942457510674432"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/mid-dorset-north-poole
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
 			case "Morley and Outwood": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/morley-and-outwood" 
@@ -219,7 +348,28 @@
 				</a>
 				<?= $Twitter_JavaScript_function ?>
 				<?php break;
-			case "North Warwickshire":
+			case "North Warwickshire": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/north-warwickshire" 
+					data-widget-id="557949819063652352"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/north-warwickshire
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
+			case "Northampton North": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/northampton-north" 
+					data-widget-id="557941149475012609"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/northampton-north
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
 			case "Norwich South": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/norwich-south" 
@@ -231,7 +381,17 @@
 				</a>
 				<?= $Twitter_JavaScript_function ?>
 				<?php break;
-			case "Oxford West and Abingdon":
+			case "Oxford West and Abingdon": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/oxford-west-abingdon" 
+					data-widget-id="557949626528313344"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/oxford-west-abingdon
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
 			case "Plymouth Sutton and Devonport": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/plym-sutton-devonport" data-widget-id="552866431835320322"
@@ -253,7 +413,17 @@
 				</a>
 				<?= $Twitter_JavaScript_function ?>
 				<?php break;
-			case "Sheffield Central":
+			case "Sheffield Central": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/sheffield-central" 
+					data-widget-id="557948814334910464"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/sheffield-central
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
 			case "Solihull": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/solihull" 
@@ -298,7 +468,17 @@
 				</a>
 				<?= $Twitter_JavaScript_function ?>
 				<?php break;
-			case "Stockton South":
+			case "Stockton South": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/stockton-south" 
+					data-widget-id="557942179721936896"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/stockton-south
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
 			case "Stroud": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/stroud" 
@@ -310,7 +490,17 @@
 				</a>
 				<?= $Twitter_JavaScript_function ?>
 				<?php break;
-			case "Sutton and Cheam":
+			case "Sutton and Cheam": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/sutton-and-cheam" 
+					data-widget-id="557941914633510914"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/sutton-and-cheam
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
 			case "Swansea West": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/swansea-west" 
@@ -322,8 +512,28 @@
 				</a>
 				<?= $Twitter_JavaScript_function ?>
 				<?php break;
-			case "Thurrock":
-			case "Walsall North":
+			case "Thurrock": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/thurrock" 
+					data-widget-id="557941569991741441"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/thurrock
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
+			case "Walsall North": ?>
+				<a class="twitter-timeline" 
+					href="https://twitter.com/50for15/lists/walsall-north" 
+					data-widget-id="557948106193780737"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
+					>
+						Tweets from https://twitter.com/50for15/lists/walsall-north
+				</a>
+				<?= $Twitter_JavaScript_function ?>
+				<?php break;
 			case "Watford": ?>
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/watford" 
