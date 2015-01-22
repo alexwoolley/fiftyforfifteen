@@ -579,7 +579,7 @@
 				<?php break;
 		} ?>
 		<script type="text/javascript">
-			jQuery("iframe").contents().find(".timeline").css("background",'rgba(5,5,5,5)');
+			// jQuery("iframe").contents().find(".timeline").css("background",'rgba(5,5,5,5)');
 		</script>
 
 
