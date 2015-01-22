@@ -98,12 +98,8 @@ body {
 	padding-top: 10px;
 }
 
-#milestone-times {
-	font-style: normal;
-	padding-top: 20px;
-}
 
-.milestone-time {
-	font-size: 24px;
-	display: inline;
+#milestone-time {
+	font-size: 50px;
+	padding: 30px 0;
 }
