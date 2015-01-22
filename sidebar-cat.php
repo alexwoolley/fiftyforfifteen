@@ -560,6 +560,8 @@
 				<a class="twitter-timeline" 
 					href="https://twitter.com/50for15/lists/wirral-south" 
 					data-widget-id="552871414823665664"
+					data-chrome="<?=$data_chrome?>"
+					data-tweet-limit="<?=$data_tweet_limit?>"
 					>
 						Tweets from https://twitter.com/50for15/lists/wirral-south
 				</a>

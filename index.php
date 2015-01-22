@@ -19,7 +19,7 @@ query_posts($args);
 	//See http://wordpress.stackexchange.com/questions/120407/how-to-fix-pagination-for-custom-loops
 	
 	// Define custom query parameters
-	$custom_query_args = array('cat' => '-200');
+	$custom_query_args = array('cat' => '-451');
 	
 	// Get current page and append to custom query parameters array
 	$custom_query_args['paged'] = get_query_var( 'paged' ) ? get_query_var( 'paged' ) : 1;
