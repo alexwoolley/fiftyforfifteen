@@ -11,7 +11,7 @@ function favicon_link() {
 }
 add_action( 'wp_head', 'favicon_link' );
 
-//For category sidebar
+//In order to register category sidebar
 register_sidebar(array(
 	'name' => __('Site description', 'sight'),
 	'before_widget' => '<div class="site-description">',
@@ -31,3 +31,14 @@ register_sidebar(array(
 	'before_title' => '<h3>',
 	'after_title' => '</h3><div class="widget-body clear">'
 ));
+
+
+//Exclude categories from widget. See https://wordpress.org/support/topic/excluding-category-from-widget
+function exclude_widget_categories($args){
+$exclude = "451,502,528"; // The IDs of the excluding categories
+$args["exclude"] = $exclude;
+return $args;
+}
+add_filter("widget_categories_args","exclude_widget_categories");
+
+?>

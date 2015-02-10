@@ -9,12 +9,11 @@ $days_remaining = floor($remaining / 86400);
 $hours_remaining = floor(($remaining % 86400) / 3600);
 ?>
 
-
 <div id="milestone" class="widget_text">
 	<h2>The General Election</h2>
 	<h3>—7th May 2015—</h3>
 	<div id="milestone-time">
-			<?= $days_remaining; ?>		
+			<?= $days_remaining; ?>	
 	</div>
 	<h3>days to go</h3>
 </div>
