@@ -59,7 +59,9 @@ if ( $custom_query->have_posts() ) : ?>
 					get_the_author(),
 					get_the_time('M j, Y')
 				); ?>
-				<em>&bull; </em><?php comments_popup_link(__('No Comments', 'sight'), __('1 Comment', 'sight'), __('% Comments', 'sight'), '', __('Comments Closed', 'sight')); ?>
+				<?php if (get_comments_number() != 0): //Only show the comments link if there are comments ?>
+					<em>&bull; </em><?php comments_popup_link(__('No Comments', 'sight'), __('1 Comment', 'sight'), __('% Comments', 'sight'), '', __('Comments Closed', 'sight')); ?>
+				<?php endif; ?>
 				<?php edit_post_link(__('Edit entry', 'sight'), '<em>&bull; </em>'); ?>
 			</div>
 			<div class="post-content"><?php if (function_exists('smart_excerpt')) smart_excerpt(get_the_excerpt(), 55); ?></div>
