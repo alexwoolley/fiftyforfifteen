@@ -8,7 +8,7 @@
 
 /*Render background image as mosaic*/
 body {
-	background: url(/wp-content/uploads/2014/07/owab-board1.jpg); background-repeat: repeat;
+	background: url(http://localhost/wordpress/50for15/wp-content/uploads/sites/2/2015/02/background1.png); background-repeat: repeat;
 }
 
 /*Get rid of copyright and credits info*/
