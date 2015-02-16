@@ -34,16 +34,21 @@ Template Name: Map
 
 					<div style="position: relative; left: 0; top: 0;">
 						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/united_kingdom_map.png" style="position: relative; top: 0; left: 0;"/>
-						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/blue_circle.png" style="position: absolute; top: 450px; left: 320px;" width="10px" height="10px;" id="carlisle"/>
-						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/blue_circle.png" style="position: absolute; top: 550px; left: 450px;" width="10px" height="10px;" id="some-constituency"/>
+						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/blue_circle.png" style="position: absolute; top: 450px; left: 320px;" width="10px" height="10px;" class="constituency-circles" id="carlisle"/>
+						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/blue_circle.png" style="position: absolute; top: 550px; left: 450px;" width="10px" height="10px;" class="constituency-circles" id="some-constituency"/>
+						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/blue_circle.png" style="position: absolute; top: 690px; left: 450px;" width="10px" height="10px;" class="constituency-circles" id="some-other-constituency"/>
 						<div style="position: absolute; top: 500px; left: 0; max-width: 200px;">
-							<div style="display: none;" id="carlisle-text">
+							<div style="display: none;" class="constituency-text" id="carlisle-text">
 								<h4>Carlisle</h4>
 								<p>Carlisle is a cool constituency. sadlkfjadslkj</p>
 							</div>
-							<div style="display: none;" id="some-constituency-text">
+							<div style="display: none;" class="constituency-text" id="some-constituency-text">
 								<h4>Some constituency</h4>
 								<p>Some paragraph</p>
+							</div>
+							<div style="display: none;" class="constituency-text" id="some-other-constituency-text">
+								<h4>Some other constituency</h4>
+								<p>Some other paragraph</p>
 							</div>
 						</div>
 					</div>
@@ -72,15 +77,24 @@ Template Name: Map
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
 
-$("#carlisle").click(function() {
-	$("#carlisle-text").show();
-	$("#some-constituency-text").hide();
-});
+$(".constituency-circles").click(function(){
 
-$("#some-constituency").click(function() {
-	$("#some-constituency-text").show();
-	$("#carlisle-text").hide();
-});
+	//Make array of all constituencies
+	var allConstituencies = []
+	$('.constituency-circles').each(function(){
+	  allConstituencies.push( "#" + $(this).attr('id') );
+	});
 
+	//Find constituency with correct id
+	var thisConstituency = "#" + $(this).attr('id');
+
+	//Hide all constituency texts
+	$(allConstituencies).each(function(){
+		$(this + "-text").hide();
+	});
+
+	//Show constituency text for constituency that's been clicked on
+	$(thisConstituency + "-text").show();
+});
 
 </script> 
