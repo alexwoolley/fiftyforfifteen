@@ -33,23 +33,27 @@ Template Name: Map
 
 
 					<div style="position: relative; left: 0; top: 0;">
-						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/united_kingdom_map.png" style="position: relative; top: 0; left: 0;"/>
-						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/blue_circle.png" style="position: absolute; top: 450px; left: 320px;" width="10px" height="10px;" class="constituency-circles" id="carlisle"/>
-						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/blue_circle.png" style="position: absolute; top: 550px; left: 450px;" width="10px" height="10px;" class="constituency-circles" id="some-constituency"/>
-						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/blue_circle.png" style="position: absolute; top: 690px; left: 450px;" width="10px" height="10px;" class="constituency-circles" id="some-other-constituency"/>
-						<div style="position: absolute; top: 500px; left: 0; max-width: 200px;">
-							<div style="display: none;" class="constituency-text" id="carlisle-text">
-								<h4>Carlisle</h4>
-								<p>Carlisle is a cool constituency. sadlkfjadslkj</p>
-							</div>
-							<div style="display: none;" class="constituency-text" id="some-constituency-text">
-								<h4>Some constituency</h4>
-								<p>Some paragraph</p>
-							</div>
-							<div style="display: none;" class="constituency-text" id="some-other-constituency-text">
-								<h4>Some other constituency</h4>
-								<p>Some other paragraph</p>
-							</div>
+						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/GBOverviewPlus.jpeg" style="position: relative; bottom: 0; left: 0;"/>
+						<a href="http://localhost/wordpress/50for15/category/carlisle/" target="_blank">
+							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/blue_circle.png" style="bottom: 450px; right: 320px;" class="constituency-circles" id="carlisle"/>
+						</a>
+						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/blue_circle.png" style="bottom: 550px; right: 450px;" class="constituency-circles" id="some-constituency"/>
+						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/blue_circle.png" style="bottom: 690px; right: 450px;" class="constituency-circles" id="some-other-constituency"/>
+						<div class="constituency-text" id="carlisle-text">
+							<p>
+								<strong>Carlisle</strong><br>
+								Conservative majority: 853 votes<br>
+								Labour target<br>
+								<em>Click to read more</em>
+							</p>
+						</div>
+						<div class="constituency-text" id="some-constituency-text">
+							<h4>Some constituency</h4>
+							<p>Some paragraph</p>
+						</div>
+						<div class="constituency-text" id="some-other-constituency-text">
+							<h4>Some other constituency</h4>
+							<p>Some other paragraph</p>
 						</div>
 					</div>
 					
@@ -63,12 +67,6 @@ Template Name: Map
 		<?php endwhile; ?>
 	<?php endif; ?>
 
-
-
-
-
-
-
 <?php comments_template(); ?>
 <?php get_footer(); ?>
 
@@ -77,24 +75,40 @@ Template Name: Map
 <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 <script>
 
-$(".constituency-circles").click(function(){
+$(".constituency-circles").hover(function(){
 
-	//Make array of all constituencies
-	var allConstituencies = []
-	$('.constituency-circles').each(function(){
-	  allConstituencies.push( "#" + $(this).attr('id') );
-	});
-
-	//Find constituency with correct id
+ 	//Find constituency with correct id
 	var thisConstituency = "#" + $(this).attr('id');
 
-	//Hide all constituency texts
-	$(allConstituencies).each(function(){
-		$(this + "-text").hide();
-	});
+	//Find position of thisConstituency
+	var thisConstituencyBottom = parseInt($(thisConstituency).css("bottom").replace(/[^-\d\.]/g, ''));
+	var thisConstituencyRight = parseInt($(thisConstituency).css("right").replace(/[^-\d\.]/g, ''));
+
+	//Define thisConstituencyText variable
+	var thisConstituencyText = thisConstituency + "-text";
+
+	//Define thisConstituencyText position
+	var thisConstituencyTextBottom = thisConstituencyBottom + 40 + "px";
+	var thisConstituencyTextRight = thisConstituencyRight + 20 + "px";
+
+	//Add CSS to thisConstituency text so that it displays just above the circle
+	$(thisConstituencyText).css("bottom", thisConstituencyTextBottom);
+	$(thisConstituencyText).css("right", thisConstituencyTextRight);
 
 	//Show constituency text for constituency that's been clicked on
-	$(thisConstituency + "-text").show();
-});
+	$(thisConstituencyText).show();	
+	}, function () {
+		//Make array of all constituencies
+		var allConstituencies = []
+		$('.constituency-circles').each(function(){
+		 	allConstituencies.push( "#" + $(this).attr('id') );
+		});
+		//Hide all constituency texts
+		$(allConstituencies).each(function(){
+			$(this + "-text").hide();
+		});
 
-</script> 
+	}
+);
+
+</script>

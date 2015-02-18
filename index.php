@@ -1,10 +1,9 @@
 <?php get_header(); ?>
 
-<!-- The following is taken verbatim from Sight theme's index.php -->
+<!-- The following is taken mostly verbatim from Sight theme's index.php -->
 
 <div class="content-title">
 	<?php _e('Latest entries', 'sight'); ?>
-	<a href="javascript: void(0);" id="mode"<?php if (isset($_COOKIE['mode']) && $_COOKIE['mode'] == 'grid') echo ' class="flip"'; ?>></a>
 </div>
 
 <?php

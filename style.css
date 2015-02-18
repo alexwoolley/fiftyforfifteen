@@ -8,7 +8,7 @@
 
 /*Render background image as mosaic*/
 body {
-	background: url(http://localhost/wordpress/50for15/wp-content/uploads/sites/2/2015/02/background1.png); background-repeat: repeat;
+	background: url(http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/50for15circles3.png); background-repeat: repeat;
 }
 
 /*Get rid of copyright and credits info*/
@@ -42,15 +42,6 @@ body {
 .mc4wp-form input {
 	text-align: center;
 	font-family: "Times New Roman", serif;
-}
-
-/*For a good-looking masthead*/
-#masthead {
-	text-align: left;
-	font-style: italic;
-	font-family: Sans-Serif;
-	font-size: 4em;
-	margin-top: 3%;
 }
 
 .logo {
@@ -103,3 +94,33 @@ body {
 	font-size: 50px;
 	padding: 30px 0;
 }
+
+.constituency-text {
+	display: none;
+	background-color: #F7F7F7;
+	max-width: 200px;
+	position: absolute;
+
+-webkit-box-shadow: 2px 2px 0px 1px rgba(241,241,241,0.75);
+-moz-box-shadow: 2px 2px 0px 1px rgba(241,241,241,0.75);
+box-shadow: 2px 2px 0px 1px rgba(241,241,241,0.75);
+}
+
+.constituency-text p{
+	padding: 0 5px;
+	font-size: 14px;
+}
+
+
+.constituency-circles {
+	position: absolute;
+	width: 10px;
+	height: 10px;
+}
+
+.search_form {
+	margin-top: 10px;
+}
+
+.logo {width: 700px; height: 128px; padding: 18px 0 12px 18px; overflow: hidden; float: left;}
+.logo img {max-width: 700px; max-height: 128px;}

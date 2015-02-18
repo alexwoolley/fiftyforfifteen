@@ -28,13 +28,6 @@
 				<div class="logo">
 					<a href="<?php echo home_url(); ?>"><img src="<?php echo (get_option('logo_url')) ? get_option('logo_url') : get_template_directory_uri().'/images/logo.png' ?>" alt="<?php bloginfo('name'); ?>"/></a>
 				</div>
-				<div id="masthead">
-				50 marginal constituencies
-				<br>
-				1 general election
-				</div>
-
-				<?php if (!function_exists('dynamic_sidebar') || !dynamic_sidebar('Site description')) ?>
 
 				<?php get_search_form(); ?>
 
