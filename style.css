@@ -98,12 +98,11 @@ body {
 .constituency-text {
 	display: none;
 	background-color: #F7F7F7;
-	max-width: 200px;
+	max-width: 250px;
 	position: absolute;
-
--webkit-box-shadow: 2px 2px 0px 1px rgba(241,241,241,0.75);
--moz-box-shadow: 2px 2px 0px 1px rgba(241,241,241,0.75);
-box-shadow: 2px 2px 0px 1px rgba(241,241,241,0.75);
+	-webkit-box-shadow: 2px 2px 0px 1px rgba(241,241,241,0.75);
+	-moz-box-shadow: 2px 2px 0px 1px rgba(241,241,241,0.75);
+	box-shadow: 2px 2px 0px 1px rgba(241,241,241,0.75);
 }
 
 .constituency-text p{
@@ -111,6 +110,33 @@ box-shadow: 2px 2px 0px 1px rgba(241,241,241,0.75);
 	font-size: 14px;
 }
 
+.labour {
+	color: #DA1500;
+}
+
+.conservative {
+	color: #0096DB;
+}
+
+.libdem {
+	color: #ffd410;
+}
+
+.ukip {
+	color: #722889;
+}
+
+.green {
+	color: #78B82A;
+}
+
+.plaid {
+	color: #3D862C;
+}
+
+.snp {
+	color: #F0D921;
+}
 
 .constituency-circles {
 	position: absolute;

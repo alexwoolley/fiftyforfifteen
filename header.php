@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html <?php language_attributes(); ?>>
 	<head>
+		<script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.1/jquery.min.js"></script>
 		<meta http-equiv="Content-Type" content="<?php bloginfo('html_type'); ?>; charset=<?php bloginfo('charset'); ?>" />
 		<title><?php wp_title('|', true, 'right'); ?></title>
 		<meta http-equiv="Content-language" content="<?php bloginfo('language'); ?>" />
@@ -21,6 +22,11 @@
 		})(jQuery)
 		</script>
 		<?php endif; ?>
+		<!-- single post js -->
+		<?php 
+		  if( is_single() and $singlePostJs = get_post_meta($post->ID, 'single-post-js', true) )
+		   echo $singlePostJs;
+		?>
 	</head>
 	<body <?php body_class(); ?><?php echo (get_option('bg_color')) ? 'style="background-color: '.get_option('bg_color').';"' : '' ?>>
 		<div class="wrapper">
