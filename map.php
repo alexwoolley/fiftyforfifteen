@@ -171,6 +171,21 @@ Template Name: Map
 						<a href="http://50for15.com/constituency/swansea-west">
 							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 175px; right: 342px;" class="constituency-circles" id="swansea-west"/>
 						</a>
+						<a href="http://50for15.com/constituency/thurrock">
+							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 163px; right: 105px;" class="constituency-circles" id="thurrock"/>
+						</a>
+						<a href="http://50for15.com/constituency/walsall-north">
+							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 260px; right: 235px;" class="constituency-circles" id="walsall-north"/>
+						</a>
+						<a href="http://50for15.com/constituency/watford">
+							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 170px; right: 140px;" class="constituency-circles" id="watford"/>
+						</a>
+						<a href="http://50for15.com/constituency/wells">
+							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/libdem_circle.png" style="bottom: 140px; right: 270px;" class="constituency-circles" id="wells"/>
+						</a>
+						<a href="http://50for15.com/constituency/wirral-south">
+							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/libdem_circle.png" style="bottom: 330px; right: 283px;" class="constituency-circles" id="wirral-south"/>
+						</a>
 
 
 						<!-- CONSTITUENCY TEXTS -->
@@ -518,7 +533,7 @@ Template Name: Map
 						<div class="constituency-text" id="stroud-text">
 							<p>
 								<strong>Stroud</strong><br>
-								<span class="conservative">Conservative</span> majority: 1,299<br>
+								<span class="conservative">Conservative</span> majority: 1,299 votes<br>
 								<span class="labour">Labour</span> target<br>
 								<em>Click to read more</em>
 							</p>
@@ -536,6 +551,48 @@ Template Name: Map
 								<strong>Swansea West</strong><br>
 								<span class="labour">Labour</span> majority: 504<br>
 								<span class="libdem">Liberal Democrat</span> target<br>
+								<em>Click to read more</em>
+							</p>
+						</div>
+						<div class="constituency-text" id="thurrock-text">
+							<p>
+								<strong>Thurrock</strong><br>
+								<span class="conservative">Conservative</span> majority: 92 votes<br>
+								<span class="labour">Labour</span> target<br>
+								<span class="ukip">UKIP</span> target<br>
+								<em>Click to read more</em>
+							</p>
+						</div>
+						<div class="constituency-text" id="walsall-north-text">
+							<p>
+								<strong>Walsall North</strong><br>
+								<span class="labour">Labour</span> majority: 990<br>
+								<span class="conservative">Conservative</span> target<br>
+								<em>Click to read more</em>
+							</p>
+						</div>
+						<div class="constituency-text" id="watford-text">
+							<p>
+								<strong>Watford</strong><br>
+								<span class="conservative">Conservative</span> majority: 1,425 votes<br>
+								<span class="libdem">Liberal Democrat</span> target<br>
+								<span class="labour">Labour</span> target<br>
+								<em>Click to read more</em>
+							</p>
+						</div>
+						<div class="constituency-text" id="wells-text">
+							<p>
+								<strong>Wells</strong><br>
+								<span class="libdem">Liberal Democrat</span> majority: 800 votes<br>
+								<span class="conservative">Conservative</span> target<br>
+								<em>Click to read more</em>
+							</p>
+						</div>
+						<div class="constituency-text" id="wirral-south-text">
+							<p>
+								<strong>Wirral South</strong><br>
+								<span class="labour">Labour</span> majority: 531<br>
+								<span class="conservative">Conservative</span> target<br>
 								<em>Click to read more</em>
 							</p>
 						</div>
