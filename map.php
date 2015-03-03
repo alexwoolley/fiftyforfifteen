@@ -31,160 +31,159 @@ Template Name: Map
 				</div>
 				<div class="post-content">
 
-
 					<div style="position: relative; left: 0; top: 0;">
 						<!-- Background map of the UK -->
 						<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/GBOverviewPlus.jpeg" style="position: relative; bottom: 0; left: 0;"/>
 						<!-- Constituency circles -->
 						<a href="http://50for15.com/constituency/arfon">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/plaid_circle.png" style="bottom: 315px; right: 350px;" class="constituency-circles" id="arfon"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/plaid_circle.png" style="bottom: 315px; right: 350px;" class="constituency-circles" id="arfon"/>
 						</a>
 						<a href="http://50for15.com/constituency/argyll-and-bute">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/libdem_circle.png" style="bottom: 590px; right: 400px;" class="constituency-circles" id="argyll-and-bute"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/libdem_circle.png" style="bottom: 590px; right: 400px;" class="constituency-circles" id="argyll-and-bute"/>
 						</a>
 						<a href="http://50for15.com/constituency/ashfield">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 320px; right: 190px;" class="constituency-circles" id="ashfield"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 320px; right: 190px;" class="constituency-circles" id="ashfield"/>
 						</a>
 						<a href="http://50for15.com/constituency/birmingham-edgbaston">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 250px; right: 220px;" class="constituency-circles" id="birmingham-edgbaston"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 250px; right: 220px;" class="constituency-circles" id="birmingham-edgbaston"/>
 						</a>
 						<a href="http://50for15.com/constituency/bolton-west">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 350px; right: 250px;" class="constituency-circles" id="bolton-west"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 350px; right: 250px;" class="constituency-circles" id="bolton-west"/>
 						</a>
 						<a href="http://50for15.com/constituency/bradford-east">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/libdem_circle.png" style="bottom: 370px; right: 220px;" class="constituency-circles" id="bradford-east"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/libdem_circle.png" style="bottom: 370px; right: 220px;" class="constituency-circles" id="bradford-east"/>
 						</a>
 						<a href="http://50for15.com/constituency/brent-central">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/libdem_circle.png" style="bottom: 168px; right: 130px;" class="constituency-circles" id="brent-central"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/libdem_circle.png" style="bottom: 168px; right: 130px;" class="constituency-circles" id="brent-central"/>
 						</a>
 						<a href="http://50for15.com/constituency/brentford-and-isleworth">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 158px; right: 130px;" class="constituency-circles" id="brentford-and-isleworth"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 158px; right: 130px;" class="constituency-circles" id="brentford-and-isleworth"/>
 						</a>
-						<a href="http://50for15.com/constituency/brighton-and-pavilion">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/green_circle.png" style="bottom: 100px; right: 125px;" class="constituency-circles" id="brighton-and-pavilion"/>
+						<a href="http://50for15.com/constituency/brighton-pavilion">
+							<img src="http://50for15.com/wp-content/uploads/2015/02/green_circle.png" style="bottom: 100px; right: 125px;" class="constituency-circles" id="brighton-and-pavilion"/>
 						</a>
 						<a href="http://50for15.com/constituency/bristol-west">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/libdem_circle.png" style="bottom: 155px; right: 265px;" class="constituency-circles" id="bristol-west"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/libdem_circle.png" style="bottom: 155px; right: 265px;" class="constituency-circles" id="bristol-west"/>
 						</a>
 						<a href="http://50for15.com/constituency/broxtowe">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 295px; right: 185px;" class="constituency-circles" id="broxtowe"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 295px; right: 185px;" class="constituency-circles" id="broxtowe"/>
 						</a>
 						<a href="http://50for15.com/constituency/camborne-and-redruth">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 45px; right: 420px;" class="constituency-circles" id="camborne-and-redruth"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 45px; right: 420px;" class="constituency-circles" id="camborne-and-redruth"/>
 						</a>
 						<a href="http://50for15.com/constituency/cardiff-north">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 163px; right: 300px;" class="constituency-circles" id="cardiff-north"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 163px; right: 300px;" class="constituency-circles" id="cardiff-north"/>
 						</a>
 						<a href="http://50for15.com/constituency/carlisle">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 470px; right: 275px;" class="constituency-circles" id="carlisle"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 470px; right: 275px;" class="constituency-circles" id="carlisle"/>
 						</a>
 						<a href="http://50for15.com/constituency/cleethorpes">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 355px; right: 130px;" class="constituency-circles" id="cleethorpes"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 355px; right: 130px;" class="constituency-circles" id="cleethorpes"/>
 						</a>
 						<a href="http://50for15.com/constituency/derby-north">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 287px; right: 200px;" class="constituency-circles" id="derby-north"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 287px; right: 200px;" class="constituency-circles" id="derby-north"/>
 						</a>
 						<a href="http://50for15.com/constituency/dover-and-deal">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 130px; right: 40px;" class="constituency-circles" id="dover-and-deal"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 130px; right: 40px;" class="constituency-circles" id="dover-and-deal"/>
 						</a>
 						<a href="http://50for15.com/constituency/dundee-east">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/snp_circle.png" style="bottom: 615px; right: 280px;" class="constituency-circles" id="dundee-east"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/snp_circle.png" style="bottom: 615px; right: 280px;" class="constituency-circles" id="dundee-east"/>
 						</a>
 						<a href="http://50for15.com/constituency/edinburgh-south">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 565px; right: 290px;" class="constituency-circles" id="edinburgh-south"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 565px; right: 290px;" class="constituency-circles" id="edinburgh-south"/>
 						</a>
 						<a href="http://50for15.com/constituency/gedling">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 295px; right: 180px;" class="constituency-circles" id="gedling"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 295px; right: 180px;" class="constituency-circles" id="gedling"/>
 						</a>
 						<a href="http://50for15.com/constituency/great-grimsby">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 350px; right: 125px;" class="constituency-circles" id="great-grimsby"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 350px; right: 125px;" class="constituency-circles" id="great-grimsby"/>
 						</a>
 						<a href="http://50for15.com/constituency/great-yarmouth">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 260px; right: 20px;" class="constituency-circles" id="great-yarmouth"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 260px; right: 20px;" class="constituency-circles" id="great-yarmouth"/>
 						</a>
 						<a href="http://50for15.com/constituency/hampstead-and-kilburn">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 165px; right: 125px;" class="constituency-circles" id="hampstead-and-kilburn"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 165px; right: 125px;" class="constituency-circles" id="hampstead-and-kilburn"/>
 						</a>
 						<a href="http://50for15.com/constituency/hendon">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 170px; right: 120px;" class="constituency-circles" id="hendon"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 170px; right: 120px;" class="constituency-circles" id="hendon"/>
 						</a>
 						<a href="http://50for15.com/constituency/hull-north">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 367px; right: 140px;" class="constituency-circles" id="hull-north"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 367px; right: 140px;" class="constituency-circles" id="hull-north"/>
 						</a>
 						<a href="http://50for15.com/constituency/lancaster-and-fleetwood">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 395px; right: 270px;" class="constituency-circles" id="lancaster-and-fleetwood"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 395px; right: 270px;" class="constituency-circles" id="lancaster-and-fleetwood"/>
 						</a>
 						<a href="http://50for15.com/constituency/lincoln">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 320px; right: 145px;" class="constituency-circles" id="lincoln"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 320px; right: 145px;" class="constituency-circles" id="lincoln"/>
 						</a>
 						<a href="http://50for15.com/constituency/mid-dorset-and-north-poole">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 93px; right: 235px;" class="constituency-circles" id="mid-dorset-and-north-poole"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 93px; right: 235px;" class="constituency-circles" id="mid-dorset-and-north-poole"/>
 						</a>
 						<a href="http://50for15.com/constituency/morley-and-outwood">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 365px; right: 210px;" class="constituency-circles" id="morley-and-outwood"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 365px; right: 210px;" class="constituency-circles" id="morley-and-outwood"/>
 						</a>
 						<a href="http://50for15.com/constituency/newton-abbot">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 75px; right: 320px;" class="constituency-circles" id="newton-abbot"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 75px; right: 320px;" class="constituency-circles" id="newton-abbot"/>
 						</a>
 						<a href="http://50for15.com/constituency/north-warwickshire">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 255px; right: 210px;" class="constituency-circles" id="north-warwickshire"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 255px; right: 210px;" class="constituency-circles" id="north-warwickshire"/>
 						</a>
 						<a href="http://50for15.com/constituency/northampton-north">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 235px; right: 190px;" class="constituency-circles" id="northampton-north"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 235px; right: 190px;" class="constituency-circles" id="northampton-north"/>
 						</a>
 						<a href="http://50for15.com/constituency/norwich-south">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/libdem_circle.png" style="bottom: 270px; right: 45px;" class="constituency-circles" id="norwich-south"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/libdem_circle.png" style="bottom: 270px; right: 45px;" class="constituency-circles" id="norwich-south"/>
 						</a>
 						<a href="http://50for15.com/constituency/oxford-west-and-abingdon">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 185px; right: 187px;" class="constituency-circles" id="oxford-west-and-abingdon"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 185px; right: 187px;" class="constituency-circles" id="oxford-west-and-abingdon"/>
 						</a>
 						<a href="http://50for15.com/constituency/plymouth-sutton-and-devonport">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 65px; right: 350px;" class="constituency-circles" id="plymouth-sutton-and-devonport"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 65px; right: 350px;" class="constituency-circles" id="plymouth-sutton-and-devonport"/>
 						</a>
 						<a href="http://50for15.com/constituency/rochdale">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 355px; right: 235px;" class="constituency-circles" id="rochdale"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 355px; right: 235px;" class="constituency-circles" id="rochdale"/>
 						</a>
 						<a href="http://50for15.com/constituency/sheffield-central">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 332px; right: 198px;" class="constituency-circles" id="sheffield-central"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 332px; right: 198px;" class="constituency-circles" id="sheffield-central"/>
 						</a>
 						<a href="http://50for15.com/constituency/solihull">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/libdem_circle.png" style="bottom: 245px; right: 210px;" class="constituency-circles" id="solihull"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/libdem_circle.png" style="bottom: 245px; right: 210px;" class="constituency-circles" id="solihull"/>
 						</a>
 						<a href="http://50for15.com/constituency/somerset-north-east">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 150px; right: 258px;" class="constituency-circles" id="somerset-north-east"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 150px; right: 258px;" class="constituency-circles" id="somerset-north-east"/>
 						</a>
 						<a href="http://50for15.com/constituency/south-thanet">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 150px; right: 35px;" class="constituency-circles" id="south-thanet"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 150px; right: 35px;" class="constituency-circles" id="south-thanet"/>
 						</a>
 						<a href="http://50for15.com/constituency/southampton-itchen">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 110px; right: 190px;" class="constituency-circles" id="southampton-itchen"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 110px; right: 190px;" class="constituency-circles" id="southampton-itchen"/>
 						</a>
 						<a href="http://50for15.com/constituency/stockton-south">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 440px; right: 190px;" class="constituency-circles" id="stockton-south"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 440px; right: 190px;" class="constituency-circles" id="stockton-south"/>
 						</a>
 						<a href="http://50for15.com/constituency/stroud">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 185px; right: 240px;" class="constituency-circles" id="stroud"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 185px; right: 240px;" class="constituency-circles" id="stroud"/>
 						</a>
 						<a href="http://50for15.com/constituency/sutton-and-cheam">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/libdem_circle.png" style="bottom: 155px; right: 123px;" class="constituency-circles" id="sutton-and-cheam"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/libdem_circle.png" style="bottom: 155px; right: 123px;" class="constituency-circles" id="sutton-and-cheam"/>
 						</a>
 						<a href="http://50for15.com/constituency/swansea-west">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/labour_circle.png" style="bottom: 175px; right: 342px;" class="constituency-circles" id="swansea-west"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 175px; right: 342px;" class="constituency-circles" id="swansea-west"/>
 						</a>
 						<a href="http://50for15.com/constituency/thurrock">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 163px; right: 105px;" class="constituency-circles" id="thurrock"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 163px; right: 105px;" class="constituency-circles" id="thurrock"/>
 						</a>
 						<a href="http://50for15.com/constituency/walsall-north">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 260px; right: 235px;" class="constituency-circles" id="walsall-north"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 260px; right: 235px;" class="constituency-circles" id="walsall-north"/>
 						</a>
 						<a href="http://50for15.com/constituency/watford">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/conservative_circle.png" style="bottom: 170px; right: 140px;" class="constituency-circles" id="watford"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/conservative_circle.png" style="bottom: 170px; right: 140px;" class="constituency-circles" id="watford"/>
 						</a>
 						<a href="http://50for15.com/constituency/wells">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/libdem_circle.png" style="bottom: 140px; right: 270px;" class="constituency-circles" id="wells"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/libdem_circle.png" style="bottom: 140px; right: 270px;" class="constituency-circles" id="wells"/>
 						</a>
 						<a href="http://50for15.com/constituency/wirral-south">
-							<img src="http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/libdem_circle.png" style="bottom: 330px; right: 283px;" class="constituency-circles" id="wirral-south"/>
+							<img src="http://50for15.com/wp-content/uploads/2015/02/labour_circle.png" style="bottom: 330px; right: 283px;" class="constituency-circles" id="wirral-south"/>
 						</a>
 
 
@@ -255,7 +254,7 @@ Template Name: Map
 								<em>Click to read more</em>
 							</p>
 						</div>
-						<div class="constituency-text" id="brighton-and-pavilion-text">
+						<div class="constituency-text" id="brighton-pavilion-text">
 							<p>
 								<strong>Brighton Pavilion</strong><br>
 								<span class="green">Green</span> majority: 1,252 votes<br>
@@ -596,11 +595,11 @@ Template Name: Map
 								<em>Click to read more</em>
 							</p>
 						</div>
-
-
-
-
 					</div>
+
+
+
+
 								<span class="conservative">Conservative</span> target<br>
 								<span class="labour">Labour</span> target<br>
 								<span class="libdem">Liberal Democrat</span> target<br>
@@ -613,6 +612,11 @@ Template Name: Map
 					<!--
 						map();
 							//--></script>
+
+
+<p>Normally, both your asses would be dead as fucking fried chicken, but you happen to pull this shit while I'm in a transitional period so I don't wanna kill you, I wanna help you. But I can't give you this case, it don't belong to me. Besides, I've already been through too much shit this morning over this case to hand it over to your dumb ass.</p>
+
+
 
 				</div>
 				<div class="post-footer"><?php the_tags('<strong>'.__('Tags:', 'sight').' </strong>', ', '); ?></div>
