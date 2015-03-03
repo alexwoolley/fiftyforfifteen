@@ -8,7 +8,7 @@
 
 /*Render background image as mosaic*/
 body {
-	background: url(http://localhost/wordpress/50for15/wp-content/themes/fiftyforfifteen/50for15circles3.png); background-repeat: repeat;
+	background: url(http://localhost/wordpress/50for15/wp-content/uploads/sites/2/2015/02/owab-board1.jpg); background-repeat: repeat;
 }
 
 /*Get rid of copyright and credits info*/
@@ -96,7 +96,7 @@ body {
 }
 
 .constituency-text {
-	display: none;
+	/*display: none;*/
 	background-color: #F7F7F7;
 	max-width: 250px;
 	position: absolute;
@@ -148,5 +148,6 @@ body {
 	margin-top: 10px;
 }
 
-.logo {width: 700px; height: 128px; padding: 18px 0 12px 18px; overflow: hidden; float: left;}
+.logo {width: 700px; height: 128px; padding: 18px 0 12px 18px; overflow: hidden; float: left; padding: 0;}
 .logo img {max-width: 700px; max-height: 128px;}
+.header {height: 128px;}
