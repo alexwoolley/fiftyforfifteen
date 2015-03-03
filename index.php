@@ -63,7 +63,15 @@ if ( $custom_query->have_posts() ) : ?>
 				<?php endif; ?>
 				<?php edit_post_link(__('Edit entry', 'sight'), '<em>&bull; </em>'); ?>
 			</div>
-			<div class="post-content"><?php if (function_exists('smart_excerpt')) smart_excerpt(get_the_excerpt(), 55); ?></div>
+			<div class="post-content">
+				<?php 
+					if (get_the_id() == 1573) {
+						echo "We’ve set ourselves the challenge at 50for15 of travelling to 50 marginal constituencies that will determine the outcome of the general election in May, which, it’s become a truism to say, is one of the least predictable in a generation. And now you can see the full geographical insanity of our undertaking on one map...";
+					} 
+					elseif (function_exists('smart_excerpt')) smart_excerpt(get_the_excerpt(), 55); 
+				?>
+
+			</div>
 		</div>
 
 	<?php endwhile; ?>
