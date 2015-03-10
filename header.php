@@ -27,6 +27,11 @@
 		  if( is_single() and $singlePostJs = get_post_meta($post->ID, 'single-post-js', true) )
 		   echo $singlePostJs;
 		?>
+		<?php 
+			// if (is_category()) {
+				get_template_part( 'charts' );
+			// }
+		?>
 	</head>
 	<body <?php body_class(); ?><?php echo (get_option('bg_color')) ? 'style="background-color: '.get_option('bg_color').';"' : '' ?>>
 		<div class="wrapper">
