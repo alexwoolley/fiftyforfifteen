@@ -2,59 +2,76 @@
 
     $data_1979 = array(
         'year' => '1979',
-        'labour' => array(
+        'Labour' => array(
             'votes' => 15526, 
             'candidate' => 'some person or other'
         ),
-        'conservative' => array(
+        'Conservative' => array(
             'votes' => 17986, 
             'candidate' => 'some person or other'
         ),
-        'libdem' => array(
+        'Lib Dem' => array(
+            'actual_name' => 'Liberal',
             'votes' => 7400, 
             'candidate' => 'some person or other'
         ),
-        'ukip' => array(
+        'UKIP' => array(
             'votes' => null, 
             'candidate' => 'some person or other'
         ),
-        'green' => array(
+        'Green' => array(
+            'actual_name' => 'Ecology',
             'votes' => 552, 
             'candidate' => 'some person or other'
         ),
-        'snp' => array(
+        'SNP' => array(
             'votes' => 3800, 
             'candidate' => 'some person or other'
         ),
-        'plaid' => array(
+        'Plaid Cymru' => array(
             'votes' => null, 
             'candidate' => 'some person or other'
         )
     );
 
-    $data_1979_string = "[";
+    function chartDataToString ($data) {
+        $data_string = "[";
 
-    foreach ($data_1979 as $key => $value) {
-        if ($key == 'year') {
-            $data_1979_string .= "'" . $value . "'" . ",";
-        }
-        else {
-            if ( isset( $value['votes'] ) ) {
-                $data_1979_string .= $value['votes'] . ",";
-                $data_1979_string .= "createTooltip(" . 
-                    "'" . $value['candidate'] . "'," . 
-                    "'" . $key . "'," . 
-                    $value['votes'] . ")" . ",";  
+        foreach ($data as $key => $value) {
+            //First include the year
+            if ($key == 'year') {
+                $data_string .= "'" . $value . "'" . ",";
             }
             else {
-                $data_1979_string .= 'null' . "," . "'" . $value['candidate'] . "'" . ",";
+                //If someone stood for election from a particular party
+                if ( isset( $value['votes'] ) ) {
+                    //Include the number of votes for the chart
+                    $data_string .= $value['votes'] . ",";
+                    //Make the tooltip
+                    //Add the candidate's name
+                    $data_string .= "createTooltip(" . "'" . $value['candidate'] . "',";
+                    //Add the party name. Conditional allows for party name to change
+                    if ( isset($value['actual_name']) ) {
+                        $data_string .= "'" . $value['actual_name'] . "',";
+                    }
+                    else {
+                        $data_string .= "'" . $key . "',";
+                    }
+                    //Add number of votes candidate received
+                    $data_string .= $value['votes'] . ")" . ",";  
+                }
+                //Else if no one stood for election from a particular party
+                else {
+                    $data_string .= 'null' . "," . "'" . $value['candidate'] . "'" . ",";
+                }
             }
         }
+
+        $data_string .= "],";
+        return $data_string;  
     }
 
-    $data_1979_string .= "],";
-
-    $data = $data_1979_string .
+    $data = chartDataToString ($data_1979) .
             "['1983', 
                 12824, 'some text or other', 
                 16485 , 'some text',
