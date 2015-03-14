@@ -48,6 +48,7 @@
                         hAxis: {title: 'Year',  titleTextStyle: {color: '#333'}},
                         vAxis: {minValue: 0},
                         colors: ['#E90000', '#0089DB', '#FFDF00', '#7E0088', '#5AC72C', '#EDE600', '#009131'],
+                        legend : { position:"none"},
                         tooltip: {isHtml: true}
                       };
 
@@ -68,7 +69,7 @@
         //See http://stackoverflow.com/questions/2901102/how-to-print-a-number-with-commas-as-thousands-separators-in-javascript
         var betterVotes = votes.toString().replace(/\B(?=(\d{3})+(?!\d))/g, ",");
         return '<div style="padding:5px 5px 5px 5px;">' +
-            candidate + ' (' + party + ')' + '<br>' + 
+            candidate + ' <em>' + party + '</em>' + '<br>' +
             '<strong>' + betterVotes + '</strong>' + ' votes' + '<br>' +
             // '<strong>' + share + '%' + '</strong>' + ' of the turnout' +
             '</div>';
